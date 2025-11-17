@@ -1,0 +1,23 @@
+Interactive Supermarket Simulation with Association Rule Mining
+Author: Farjana Rahin (6517691)
+Course: CAI 4002 - Artificial Intelligence (Fall 2025)
+1. Introduction
+This project implements supermarket data mining using Apriori and Eclat to discover frequent itemsets and association rules. It simulates a real-world analytics workflow from data cleaning to recommendation.
+2. System Architecture
+The system performs data loading, cleaning, frequent itemset mining, rule generation, and interactive recommendation queries.
+3. Data Preprocessing
+Handles empty/single-item transactions, duplicates, invalid items, whitespace, and case inconsistencies.
+4. Algorithms
+Apriori: Level-wise search, Apriori pruning. Eclat: Vertical TID-sets, DFS with intersections. Rules: Confidence-based filtering.
+5. Results
+Apriori and Eclat were both successful. Eclat ran faster due to more efficient intersections.
+6. Recommendations Interface
+The interactive console allows testing associations by product name.
+7. Testing
+Verified cleaning, duplicate handling, invalid item removal, and rule-based recommendations.
+8. Limitations
+No GUI, memory-based approach, CLOSET not included.
+9. AI Tool Usage
+ChatGPT was used to structure documentation, clarify algorithms, and generate boilerplate code.
+10. References
+Course materials, standard algorithm descriptions, Python documentation.
